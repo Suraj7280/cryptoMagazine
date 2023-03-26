@@ -76,11 +76,17 @@ export default function Sidebar() {
 
         <button
           className="logout"
-          style={{ marginLeft: "3rem", marginTop: "1rem" }}
+          style={{ marginLeft: "2rem", marginTop: "1rem" }}
           onClick={logout}
         >
           Logout
         </button>
+        <p style={{ fontSize: "0.7rem", marginLeft: "0.5rem" }}>
+          developed by{" "}
+          <i>
+            <b>Suraj Sharma</b>
+          </i>
+        </p>
       </Menu>
     </React.Fragment>
   );

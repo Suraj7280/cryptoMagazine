@@ -4,8 +4,6 @@ import Cryptodetail from "./component/Cryptodetail/Cryptodetail";
 import Cryptoinfo from "./component/Cryptoinfo/Cryptoinfo";
 import Detailinfo from "./component/Detailinfo/Detailinfo";
 import Homepage from "./component/Homepage/Homepage";
-import Loginredirect from "./component/Loginredirect/Loginredirect";
-import Relogin from "./component/Relogin/Relogin";
 
 import { useAuth0 } from "@auth0/auth0-react";
 
