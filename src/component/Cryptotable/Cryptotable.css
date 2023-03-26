@@ -1,0 +1,68 @@
+.tablecontainer{
+    display: flex;
+    justify-content: center;
+}
+.subtablecontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: column;
+}
+.tablebox{
+    display: flex;
+    height:10rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0.1rem;
+    border-radius: 1rem;
+    border: 1px solid black; 
+    cursor: pointer;   
+}
+.tablebox:hover{
+    background-color: rgb(231, 241, 250);
+}
+.subtablebox{
+    display: flex;
+    margin: 1.2rem;
+    
+}
+.imagebox{
+    color: aliceblue;
+}
+.cryptext{
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight:lighter;
+    margin-top: 0.6rem;
+}
+.cryp{
+    margin-top: -1rem;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(22, 210, 22);
+}
+.textdeco{
+    text-decoration: none;
+}
+
+.button-data{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+
+}
+.datatext{
+    display: flex;
+    justify-content: center;
+    margin:2rem;
+}
+
+.unedrli{
+    text-decoration: none;
+}

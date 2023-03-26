@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+    .crycontainer{
+        display:block !important;
+        
+    }
+  }
+  
+.coinImage{
+    margin: 2rem;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    
+    
+}
+
+
+.crycontainer{
+    display:flex;
+    
+    
+}
+

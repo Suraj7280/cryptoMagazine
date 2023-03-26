@@ -1,0 +1,78 @@
+@media screen and (max-width: 480px) {
+    .cryptotext{
+        font-size: 2rem !important;
+    }
+    .cryptocontent{
+        font-size: 1.2rem !important;
+    }
+  }
+
+
+.Homepagecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.cryptoverse{
+    display: flex;
+    justify-content: center;
+}
+.cryptotext{
+    display: flex;
+    font-family: 'Rampart One', cursive;
+    font-size: 7rem;
+    color: rgb(135, 65, 255);
+    justify-content: center;
+    width: 100%;
+    text-shadow: 6px 5px 2px  #ff0000;
+    margin-top: 1rem;
+}
+.cryptocontent{
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.cryptotextcontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.Started{
+    height: 3rem;
+    width: 12rem;
+    background-color: rgb(135, 65, 255);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    color:aliceblue;
+}
+.Started:hover{
+    background-color: rgb(148, 87, 252);
+    cursor: pointer;
+}
+
+.bitcoincontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.bitsubcoincontainer{
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    height: 12rem;
+    flex-wrap: wrap;
+}
+.start{
+    margin-top: 1.5rem;
+}

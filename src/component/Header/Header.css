@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    height: 4rem;
+   justify-content: center;
+  
+}
+.containerheader{
+    display: flex;
+    flex:1;
+    justify-content:space-between;
+    margin: 1.5rem;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.logout{
+    margin:0.3rem;
+    background: rgb(148, 87, 252);
+    height: 2rem;
+    width: 6rem;
+    font-weight: bold;
+    margin-top: -0.2rem;
+    color: aliceblue;
+    border: none;
+}
+.logout:hover{
+    background: rgb(187, 156, 241);
+    cursor: pointer;
+}
+.cryptotexts{
+    display: flex;
+    font-family: 'Rampart One', cursive;
+    font-size: 1.2rem;
+    color: rgb(135, 65, 255);
+    text-shadow: 2px 2px 2px  #ff0000;
+    margin-top: -0.2rem;
+}
+.usertext{
+    font-size: 0.9rem;
+    color: blueviolet;
+}

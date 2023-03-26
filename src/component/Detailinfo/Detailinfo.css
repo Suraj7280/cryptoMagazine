@@ -1,0 +1,21 @@
+.detailcontainer{
+    display:flex;
+    justify-content: center;
+}
+.coinname{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.description{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: center;
+    font-size: small;
+    margin-top: 1rem;
+}
+.iconimage{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
